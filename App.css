@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
 .sq-title{
     color: #347aeb;
 }
@@ -15,9 +17,36 @@ body{
 .sq-title-required{
     color: #eb343d;
 }
-/* 
-@media screen and (max-width: 800px){
-    body{
-        initial-scale
+
+
+
+body{
+    /* background: url(animais-rapidos.png) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    align-items: center;
+}
+
+.title{
+    font-family: "Lato", sans-serif;
+    text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(255, 255, 255, 0.5),
+             4px 4px 5px rgba(231, 231, 231, 0.7),
+             0px 0px 7px rgba(233, 233, 233, 0.4);
+}
+
+
+
+@media screen and (min-width: 620px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     }
-} */
+  }
